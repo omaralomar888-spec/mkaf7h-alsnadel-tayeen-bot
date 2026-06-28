@@ -72,15 +72,15 @@ client.on(Events.InteractionCreate, async (interaction) => {
 
       const personName = new TextInputBuilder()
         .setCustomId("person_name")
-        .setLabel("اسم الشخص")
-        .setPlaceholder("اكتب اسم الشخص المرشح")
+        .setLabel("اسم الشخص وايدية")
+        .setPlaceholder("اكتب ايدي القحبه هنا")
         .setStyle(TextInputStyle.Short)
         .setRequired(true);
 
       const reason = new TextInputBuilder()
         .setCustomId("reason")
-        .setLabel("سبب التعيين")
-        .setPlaceholder("اكتب سبب التعيين")
+        .setLabel("سبب الطلب")
+        .setPlaceholder("اكتب سبب الطلب")
         .setStyle(TextInputStyle.Paragraph)
         .setRequired(true);
 
