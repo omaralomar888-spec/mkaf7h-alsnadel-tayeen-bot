@@ -1,0 +1,17 @@
+{
+  "name": "mkaf7h-alsnadel-tayeen-bot",
+  "version": "1.0.0",
+  "description": "Discord tayeen request bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "panel": "node send-panel.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.5"
+  },
+  "engines": {
+    "node": ">=18.17.0"
+  }
+}
